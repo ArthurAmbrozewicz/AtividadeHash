@@ -76,8 +76,8 @@ Foram implementadas **três variações**: duas com rehashing e uma com encadeam
 
 ## 📊 5. Resultados Obtidos
 
-| Tabela | Hash | Registros | Inserção | Inserção (ms) | Colisões | Gap Mín | Gap Máx | Gap Médio | Busca (ms) | Encontrados | Maior Lista |
-|:--|:--|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| Tabela | Hash | Tamanho Usado | Registros | Inserção (ms) | Colisões | Gap Mín | Gap Máx | Gap Médio | Busca (ms) | Encontrados | Maior Lista |
+|:--|:--|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|
 | Encadeamento | Multiplicativo | 150.000 | 100.000 | 9 | 43.408 | 1 | 14 | 2 | 8 | 100.000 | 6 |
 | Rehashing | Quadrático | 150.000 | 100.000 | 8 | 71.904 | 1 | 12 | 1 | 11 | 100.000 | — |
 | Rehashing | Double Hashing Custom | 150.000 | 100.000 | 8 | 64.870 | 1 | 11 | 1 | 8 | 100.000 | — |

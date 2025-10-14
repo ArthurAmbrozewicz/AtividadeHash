@@ -1,7 +1,7 @@
 # 🧮 Relatório de Desempenho — Tabelas Hash em Java  
 
 **Disciplina:** Estrutura de Dados  
-**Aluno:** *[Seu nome]*  
+**Alunos:** Arthur Cidral, Bernardo Vieira, Vinicius Padilha 
 **Data:** Outubro / 2025  
 
 ---

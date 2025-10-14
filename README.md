@@ -38,9 +38,9 @@ Três conjuntos de dados foram gerados com **números de 9 dígitos**, represent
 
 | Conjunto | Quantidade |
 |:--|:--:|
-| C1 | 100.000 |
-| C2 | 1.000.000 |
-| C3 | 10.000.000 |
+| C1 | 150.000 |
+| C2 | 1.500.000 |
+| C3 | 15.000.000 |
 
 A geração utilizou `Random` com **seed fixa (42)**, garantindo que todas as funções hash testaram **os mesmos dados** — requisito essencial de validade.
 
@@ -76,7 +76,7 @@ Foram implementadas **três variações**: duas com rehashing e uma com encadeam
 
 ## 📊 5. Resultados Obtidos
 
-| Tabela | Hash | Tamanho | Registros | Inserção (ms) | Colisões | Gap Mín | Gap Máx | Gap Médio | Busca (ms) | Encontrados | Maior Lista |
+| Tabela | Hash | Registros | Inserção | Inserção (ms) | Colisões | Gap Mín | Gap Máx | Gap Médio | Busca (ms) | Encontrados | Maior Lista |
 |:--|:--|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 | Encadeamento | Multiplicativo | 150.000 | 100.000 | 9 | 43.408 | 1 | 14 | 2 | 8 | 100.000 | 6 |
 | Rehashing | Quadrático | 150.000 | 100.000 | 8 | 71.904 | 1 | 12 | 1 | 11 | 100.000 | — |

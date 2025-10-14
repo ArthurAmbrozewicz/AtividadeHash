@@ -76,15 +76,18 @@ Foram implementadas **três variações**: duas com rehashing e uma com encadeam
 
 ## 📊 5. Resultados Obtidos
 
-> ⚠️ *Os valores abaixo são ilustrativos. Substitua pelos resultados reais após rodar o programa e gerar o arquivo `resultado_hash_substituido.csv`.*
-
 | Tabela | Hash | Tamanho | Registros | Inserção (ms) | Colisões | Gap Mín | Gap Máx | Gap Médio | Busca (ms) | Encontrados | Maior Lista |
 |:--|:--|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| Encadeamento | Multiplicativo | 10.000 | 100.000 | 1.240 | 11.520 | 0 | 42 | 8 | 890 | 100.000 | 9 |
-| Rehashing | Quadrático | 10.000 | 100.000 | 1.085 | 9.860 | 1 | 33 | 10 | 745 | 100.000 | — |
-| Rehashing | Double Hashing | 10.000 | 100.000 | 980 | 8.420 | 1 | 40 | 9 | 690 | 100.000 | — |
+| Encadeamento | Multiplicativo | 150.000 | 100.000 | 9 | 43.408 | 1 | 14 | 2 | 8 | 100.000 | 6 |
+| Rehashing | Quadrático | 150.000 | 100.000 | 8 | 71.904 | 1 | 12 | 1 | 11 | 100.000 | — |
+| Rehashing | Double Hashing Custom | 150.000 | 100.000 | 8 | 64.870 | 1 | 11 | 1 | 8 | 100.000 | — |
+| Encadeamento | Multiplicativo | 1.500.000 | 1.000.000 | 111 | 437.871 | 1 | 20 | 2 | 202 | 1.000.000 | 8 |
+| Rehashing | Quadrático | 1.500.000 | 1.000.000 | 88 | 729.627 | 1 | 14 | 1 | 111 | 1.000.000 | — |
+| Rehashing | Double Hashing Custom | 1.500.000 | 1.000.000 | 118 | 2.148.477 | 1 | 13 | 1 | 101 | 999.999 | — |
+| Encadeamento | Multiplicativo | 15.000.000 | 10.000.000 | 1.632 | 4.552.897 | 1 | 25 | 2 | 1.633 | 10.000.000 | 10 |
+| Rehashing | Quadrático | 15.000.000 | 10.000.000 | 1.057 | 7.652.751 | 1 | 19 | 1 | 1.250 | 10.000.000 | — |
+| Rehashing | Double Hashing Custom | 15.000.000 | 10.000.000 | 1.123 | 6.700.406 | 1 | 14 | 1 | 1.336 | 10.000.000 | — |
 
----
 
 ## 📈 6. Análise dos Resultados
 
